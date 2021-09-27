@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "name" : "Capaccio fresco",
-        "description" : "Entrada Carpaccio de salmón con cítricos",
+        "description" : "",
         "price" : 65.50,
         "image" : "Carpaccio-de-salmon.jpg"
     },
@@ -23,7 +23,6 @@
     {
         "id" : 4,
         "name" : "Espárragos blancos",
-        "description" : "Espárragos blancos con vinagreta de verduras y jamón ibérico",
         "price" : 37.50,
         "image" : "esparragos.png"
     }

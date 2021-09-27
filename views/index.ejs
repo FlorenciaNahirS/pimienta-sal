@@ -35,7 +35,11 @@
             <a href="/detalle/<%= plato.name %>" class="platos">
               <h4><%= plato.name %></h4>
               <p class="ps-text-grey">
-                <%= plato.description %> U$S <%= plato.price %>
+                <% if (!plato.description) { %>
+                  <h3 class="ps-text-grey">Plato típico</h3>
+                <% }else{ %>
+                  <h3 class="ps-text-grey"><%= plato.description %></h3>
+                <% } %> U$S <%= plato.price %>
               </p>
             </a>
 

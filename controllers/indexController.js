@@ -6,5 +6,6 @@ module.exports={
     }),
     detalle: (req, res) => res.render('detalleMenu',{
         plato: menu.find(plato => plato.name === req.params.name)
-    })
+    }),
+    about: (req, res) => res.render('about')
 }
